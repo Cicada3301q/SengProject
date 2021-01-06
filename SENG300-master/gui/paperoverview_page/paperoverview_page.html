@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Paper Overview</title>
+        <link rel='stylesheet' href='paperoverview_page.css'/>
+    </head>
+	<body>
+        <header>
+            <h1 class='title-header'>Paper Overview</h1>
+        </header>
+        <div class='container'>
+            <div class='tab-bar'>
+                <button class='back'>Back to Main View</button>
+                <button class='logout'>Logout</button>
+            </div>
+			<div class='decision' style='display:none;'>
+				<button class='accepted'>Accept</button>
+				<button class='rejected'>Reject</button>
+				<button class='maj-revis'>Major</button>
+				<button class='min-revis'>Minor</button>
+            </div>
+            
+            <div class='deadline'>Deadline: </div>
+
+             <!-- Update paper --> 
+             <div class='content-section'>
+                <div class='section-header'>Update Paper</div>
+                <input type="file" id="update-file" hidden = "hidden"/>
+                <button type="button" id="choose-button">CHOOSE FILE</button>
+                <span id = "custom-text">No file chosen.</span>
+                <button type="button" id="update-button">UPDATE</button>
+
+                <span id = "error-text" hidden = "hidden">No File Selected</span>
+            </div>
+            <div class='section-header'>History</div>
+        
+	</body>
+    <script type='text/javascript' src='paperoverview_page.js'></script>
+</html>

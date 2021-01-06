@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Generic Journal Main View</title>
+        <link rel='stylesheet' href='main_page.css'/>
+    </head>
+    <body>
+        <header>
+            <h1 class='title-header'>General Journal Main Page</h1>
+        </header>
+        <div class='container'>
+            <div class='tab-bar'>
+                <!-- Don't change the order of classes --> 
+                <div>
+                    <button class='tab-button researcher at-tab' style='display:none;'>Your Submissions</button>
+                    <button class='tab-button reviewer' style='display:none;'>Review Other Papers</button>
+                    <button class='tab-button editor' style='display:none;'>Editor</button>
+                </div>
+                <button class='logout'>Logout</button>
+            </div>
+
+            <div id='researcher' class='tab' style='display:none;'>
+                <div class='deadline-alert deadline-b'>Filler Deadline Text</div>
+                <div class='content-section'>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="file" id="real-file" hidden = "hidden"/>
+                                <button type="button" id="upload-button">CHOOSE FILE</button>
+                                <span id = "custom-text">No file chosen.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id ="journal-name" placeholder="Journal Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    Reviewer 1:
+                                    <select id="reviewer-list1" onchange="reviewers_onchange()">
+                                        <option>select a reviewer</option>
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    Reviewer 2:
+                                    <select id="reviewer-list2" onchange="reviewers_onchange()">
+                                        <option>select a reviewer</option>
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <form>
+                                    Reviewer 3:
+                                    <select id="reviewer-list3" onchange="reviewers_onchange()">
+                                        <option>select a reviewer</option>
+                                    </select>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" id="submit-button">SUBMIT</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span id = "error-text" hidden = "hidden">No File Selected</span>
+                                <span id = "success-text" hidden = "hidden">Upload Successful</span>
+                            </td>
+                        </tr>
+                        <div class='section-header'>Submit New Paper</div>
+                    </table>
+                </div>
+                <div class='content-section'>
+                    <div class='section-header'>Previous Submissions</div>
+                    <input class='search-submit'
+                           type='text' 
+                           placeholder='Search previous submissions...'>
+                    </input>
+                    
+                    <ul class='submit-list' id='submit-list'>
+                        <!-- Filling to see how it looks --> 
+                    </ul>
+                </div>
+            </div>
+
+            <div id='reviewer' class='tab' style="display:none">
+                <div class='content-section'>
+                    <div class='section-header'>Assigned Papers</div>
+                    <input class='assigned-search'
+                           type='text' 
+                           placeholder='Search assigned papers...'>
+                    </input>
+                    <ul class='assigned-list' id='assigned-list'>
+                    </ul>
+                </div>
+
+                <div class='content-section'>
+                    <div class='section-header'>Search Interesting Papers</div>
+                    <input class='interest-search'
+                           type='text' 
+                           placeholder='Search papers to review...'>
+                    </input>
+                    <ul class='interest-list' id='interest-list'>
+                    </ul>
+                </div>
+            </div>
+
+            <div id='editor' class='tab' style="display:none">
+                <div class='content-section'>
+                    <div class='section-header'>New Submissions</div>
+					<input class='newsub-search'
+						   type='text'
+						   placeholder='Search new submissions...'>
+					</input>
+					<ul class='new-list' id='new-list'>
+					</ul>
+					<div class='assign-detail'>
+						<div class='error-container' id='assign-error'></div>
+						<div class='assign-row'>
+							<div class='assign-title'>
+								<h6 id='detail-title'>Pixel Clipper: Supporting Public Engagement and Conversation About Visualizations</h6>
+							</div>
+						</div>
+						<div class='assign-row'>	
+							<div>
+								<ul class='rec-container' id='wanted-container'>
+									<li class='rec-el'></li>
+									<li class='rec-el'></li>
+									<li class='rec-el'></li>
+								</ul>
+								<div class='for'>Wanted Reviewers</div>
+							</div>
+
+							<div>
+								<ul class='rec-container scroll' id='interested-container'>
+									<li class='rec-el'></li>
+									<li class='rec-el'></li>
+									<li class='rec-el'></li>
+								</ul>
+								<div class='for'>Interested Reviewers</div>
+							</div>
+						</div>
+						<div class='assign-row'>
+							<label for='assign1'>First Reviewer</label>
+							<select id='assign1'> 
+									<option value="">First Reviewer</option>
+							</select>
+						</div>
+						<div class='assign-row'>
+							<label for='assign2'>Second Reviewer</label>
+							<select id='assign2'> 
+								<option value="">Second Reviewer</option>
+							</select>
+						</div>
+						<div class='assign-row'>
+							<label for='assign3'>Third Reviewer</label>
+							<select id='assign3'> 
+									<option value="">Third Reviewer</option>
+							</select>
+						</div>
+						<div class='assign-row'>
+							<button id='assign-reviewers-btn'>Assign Reviewers</button>
+						</div>
+					</div>
+				</div>
+                <div class='content-section'>
+                    <div class='section-header'>Pending Decisions</div>
+					<input class='pending-search'
+						   type='text'
+						   placeholder='Search papers pending decision...'>
+					</input>
+					<ul class='pend-list' id='pend-list'>
+					</ul>
+				</div>
+                <div class='content-section'>
+                    <div class='section-header'>Administrative Decisions</div>
+						<div class='error-container' id='admin-status'></div>
+						<div class='subsection'>
+							<div class='subsection-row'>
+								<select class='appoint' id= 'appoint-list'> 
+									<option>Choose appointment candidate</option>
+								</select>
+							</div>
+							</select>
+							<div class='subsection-row'>
+								<button id='appoint-res'>Appoint Researcher</button>
+								<button id='appoint-rev'>Appoint Reviewer</button>
+								<button id='appoint-edit'>Appoint Editor</button>
+							</div>
+						</div>
+					<!-- let people be researchers --> 
+					<!-- submit researcher list --> 
+				</div>
+            </div>
+        </div>
+    </body>
+    <script type='text/javascript' src='main_page.js'></script>
+</html>

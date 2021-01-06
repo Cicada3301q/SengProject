@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Generic Journal</title>
+        <link rel='stylesheet' href='front_page.css'/>
+    </head>
+    <body>
+
+        <header class='title-header'>
+            <h1>Generic Journal Submission</h1>
+        </header>
+        <div class='server-message'></div>
+        <div class='regis-form'>
+            <div class='form-row removed-name restored-name'>
+                <label for='first-name'>First Name</label>
+                <input id='first-name' 
+                       name='first-name' 
+                       type='text'
+                       placeholder="Mary" />
+            </div>
+            <div class='form-row removed-name restored-name'>
+                <label for='last-name'>Last Name</label>
+                <input id='last-name' 
+                       name='last-name' 
+                       type='text'
+                       placeholder="Sue" />
+            </div>
+
+            <div class='form-row'>
+                <label for='email'>Email</label>
+                <input id='email'
+                       name='email'
+                       type='email'
+                       placeholder='person@example.com'/>
+            </div>
+
+            <div class='form-row'>
+                <label for='password'>Password</label>
+                <input id='password' 
+                       name='password' 
+                       type='password' 
+                       placeholder='********'/>
+            </div>
+            <div class='form-row button-wrapper'>
+                    <button type='button' class='login-button'>Login</button>
+                    <button type='button' class='regis-button'>Sign up</button>
+            </div>
+        </div>
+    </body>
+    <script type='text/javascript' src='front_page.js'></script>
+</html>
+

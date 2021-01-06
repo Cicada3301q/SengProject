@@ -1,0 +1,987 @@
+{
+  "users": [
+    {
+      "email": "a@a.as",
+      "password": "a",
+      "firstname": "asd",
+      "lastname": "asd",
+      "submissions": [
+        "YFN2EDbpV9VJ7bL6",
+        "PtTqdG4fm72CwH7K"
+      ]
+    },
+    {
+      "email": "a@a.aa",
+      "password": "a",
+      "firstname": "a",
+      "lastname": "a",
+      "submissions": [
+        "7SizTgDEILti05oh",
+        "bWTHEjbL6l9WusUx",
+        "q6xsEl2UWqkwlqqO",
+        "T2AddJ2rTRfGlqW5",
+        "YvzLpGdwAossbdT7",
+        "MSEgFvUNVRoedGyu",
+        "4UCLnZUMUc51fXci",
+        "3QGkWf7Ozl92josr"
+      ]
+    },
+    {
+      "email": "e@e.ee",
+      "password": "e",
+      "firstname": "editor",
+      "lastname": "editor",
+      "submissions": []
+    },
+    {
+      "email": "stevenhwang@ucalgary.ca",
+      "password": "pass",
+      "firstname": "Steven",
+      "lastname": "Hwang",
+      "submissions": []
+    },
+    {
+      "email": "r@r.rr",
+      "password": "r",
+      "firstname": "r",
+      "lastname": "r",
+      "submissions": []
+    },
+    {
+      "email": "rr@r.rr",
+      "password": "r",
+      "firstname": "r",
+      "lastname": "r",
+      "submissions": []
+    },
+    {
+      "email": "rrr@r.rr",
+      "password": "r",
+      "firstname": "r",
+      "lastname": "r",
+      "submissions": []
+    },
+    {
+      "email": "b@b.bb",
+      "password": "b",
+      "firstname": "b",
+      "lastname": "b",
+      "submissions": [
+        "TNp28HAcd5Fxwpwe",
+        "aSHSbzjeozf5sTWz",
+        "qnnHeFf9RhI76pVr",
+        "8vjNpDgK8HzxNVoc",
+        "dvRUohF4ytIQBbhM",
+        "wd2ZcYAeontfSMss",
+        "DyO6lNVqjOOmahuI",
+        "J9kS6l5zmHlAag40",
+        "hli1Tr3vLzwD8xkV",
+        "ucSsxQ4a2b7copSo",
+        "EYC5bbOAsDVL1UVX",
+        "VAC6VWcvMbr3hM4a",
+        "K7COTn5Ur59cW9f4"
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "_id": "YFeJwIe7RbQij9YVR12PadVz9jCmmaFC",
+      "session": {
+        "cookie": {
+          "originalMaxAge": null,
+          "expires": null,
+          "secure": false,
+          "httpOnly": true,
+          "path": "/"
+        }
+      },
+      "expires": 1586966601177
+    },
+    {
+      "_id": "qcN_8UCE2dUUlEkJ9dJ7JgO_3p1AREOJ",
+      "session": {
+        "cookie": {
+          "originalMaxAge": null,
+          "expires": null,
+          "secure": false,
+          "httpOnly": true,
+          "path": "/"
+        }
+      },
+      "expires": 1586970718711
+    },
+    {
+      "_id": "sAX6r4mnNSrEYVSSvm4oVa7FrwrrsIO0",
+      "session": {
+        "cookie": {
+          "originalMaxAge": null,
+          "expires": null,
+          "secure": false,
+          "httpOnly": true,
+          "path": "/"
+        }
+      },
+      "expires": 1586962104179
+    },
+    {
+      "_id": "uNrIKpMVzzPf6lPM9ppmwQyoqDsQSvbO",
+      "session": {
+        "cookie": {
+          "originalMaxAge": null,
+          "expires": null,
+          "secure": false,
+          "httpOnly": true,
+          "path": "/"
+        }
+      },
+      "expires": 1586962104381
+    },
+    {
+      "_id": "Fqi4Pbd9V1IQT0uwSwYbbwnnDbQUqY0O",
+      "session": {
+        "cookie": {
+          "originalMaxAge": null,
+          "expires": null,
+          "secure": false,
+          "httpOnly": true,
+          "path": "/"
+        }
+      },
+      "expires": 1586962104388
+    },
+    {
+      "_id": "6Sov0yLBE70EW3-zDGTNBQftFiSYnaj_",
+      "session": {
+        "cookie": {
+          "originalMaxAge": null,
+          "expires": null,
+          "secure": false,
+          "httpOnly": true,
+          "path": "/"
+        }
+      },
+      "expires": 1586962104636
+    }
+  ],
+  "usersessions": [
+    {
+      "email": "a@a.aa",
+      "sessid": "xOM3nfBJJ5w-WiP3TPmrb4lAC6rRAx3I"
+    },
+    {
+      "email": "a@a.as",
+      "sessid": "pTK3HtpSRpRNJX9nE3aaE1jrIC3DAuOs"
+    },
+    {
+      "email": "a@a.aa",
+      "sessid": "LYCpwWhVVg3iKLHyNJcJAjsr6l9lsv4j"
+    }
+  ],
+  "papers": [
+    {
+      "id": "7SizTgDEILti05oh",
+      "titlelower": "quantum counting",
+      "title": "Quantum Counting",
+      "papers": [
+        {
+          "id": "rHfr1IjGXmpkp9vd",
+          "deadline": -1,
+          "feedback": [
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080691501
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080726849
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080727432
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080727848
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080728254
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo2",
+              "time": 1585080730608
+            },
+            {
+              "email": "r@r.rr",
+              "feedback": "Your paper is garbo2",
+              "time": 1585080730608
+            },
+            {
+              "email": "rr@r.rr",
+              "feedback": "Your paper is garbo2",
+              "time": 1585080730608
+            },
+            {
+              "email": "r@r.rr",
+              "feedback": "Hello world! I am adding comments!",
+              "time": 1586850850249
+            }
+          ]
+        },
+        {
+          "id": "rHfr1IjGXmpkp9vd",
+          "deadline": 1589301036845,
+          "feedback": [
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080691501
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080726849
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080727432
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080727848
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo",
+              "time": 1585080728254
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "Your paper is garbo2",
+              "time": 1585080730608
+            },
+            {
+              "email": "r@r.rr",
+              "feedback": "Your paper is garbo2",
+              "time": 1585080730608
+            },
+            {
+              "email": "rr@r.rr",
+              "feedback": "Your paper is garbo2",
+              "time": 1585080730608
+            },
+            {
+              "email": "r@r.rr",
+              "feedback": "Hello world! I am adding comments!",
+              "time": 1586850850249
+            },
+            {
+              "email": "r@r.rr",
+              "feedback": "Lmao",
+              "time": 1586853405254
+            },
+            {
+              "email": "a@a.as",
+              "feedback": "test",
+              "time": 1586864003840
+            }
+          ]
+        },
+        {
+          "id": "AAAQlHvVSuxN3Kr4",
+          "feedback": [],
+          "deadline": -1
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [],
+      "assignedreviewers": [
+        "r@r.rr",
+        "rr@r.rr",
+        "a@a.as"
+      ],
+      "authorfirst": "a",
+      "authorlast": "a",
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ],
+      "deadline": 1589300224379
+    },
+    {
+      "id": "bWTHEjbL6l9WusUx",
+      "titlelower": "quantum counting v2",
+      "title": "Quantum Counting V2",
+      "papers": [
+        {
+          "id": "ox7H29vSp0vC7xGy",
+          "deadline": -1,
+          "feedback": []
+        },
+        {
+          "id": "YSCJCKj4wvo962vA",
+          "feedback": [],
+          "deadline": -1
+        },
+        {
+          "id": "SsnkcBMKDlUGmE89",
+          "feedback": [],
+          "deadline": -1
+        }
+      ],
+      "status": "minor",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [
+        "rrr@r.rr"
+      ],
+      "assignedreviewers": [],
+      "authorfirst": "a",
+      "authorlast": "a",
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        },
+        {
+          "email": "a@a.aa"
+        }
+      ]
+    },
+    {
+      "id": "q6xsEl2UWqkwlqqO",
+      "titlelower": "paper",
+      "title": "Paper",
+      "papers": [
+        {
+          "id": "DCq1n6x66BS6TMPV",
+          "deadline": -1,
+          "feedback": [
+            {
+              "email": "a@a.as",
+              "feedback": "hi",
+              "time": 1586867207296
+            }
+          ]
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [],
+      "assignedreviewers": [
+        "a@a.as",
+        "stevenhwang@ucalgary.ca",
+        "r@r.rr"
+      ],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "T2AddJ2rTRfGlqW5",
+      "titlelower": "paper lmao",
+      "title": "Paper lmao",
+      "papers": [
+        {
+          "id": "kQA0fYpb0dJnVy7V",
+          "deadline": -1,
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "YvzLpGdwAossbdT7",
+      "titlelower": "paper lmao",
+      "title": "Paper lmao",
+      "papers": [
+        {
+          "id": "3GsDwaLn87gcSGXc",
+          "deadline": -1,
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "MSEgFvUNVRoedGyu",
+      "titlelower": "paper lmao",
+      "title": "Paper lmao",
+      "papers": [
+        {
+          "id": "KkmtlSF8arlatdjs",
+          "deadline": -1,
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "4UCLnZUMUc51fXci",
+      "titlelower": "paper lmao",
+      "title": "Paper lmao",
+      "papers": [
+        {
+          "id": "SaxugkOjD4pNapsW",
+          "deadline": -1,
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "3QGkWf7Ozl92josr",
+      "titlelower": "paper lmao 2",
+      "title": "Paper lmao 2",
+      "papers": [
+        {
+          "id": "pBNaOxu3DJgrUgL6",
+          "deadline": -1,
+          "feedback": [
+            {
+              "email": "r@r.rr",
+              "feedback": "This paper is pretty bad.",
+              "time": 1586853497371
+            }
+          ]
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.aa",
+      "suggestedreviewers": [],
+      "assignedreviewers": [
+        "rrr@r.rr",
+        "r@r.rr",
+        "stevenhwang@ucalgary.ca"
+      ],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "PtTqdG4fm72CwH7K",
+      "titlelower": "fancy paper 100",
+      "title": "Fancy Paper 100",
+      "papers": [
+        {
+          "id": "9HLTNYw5u97TppFU",
+          "feedback": []
+        },
+        {
+          "id": "9qteK5oRB52gvJWr",
+          "feedback": [],
+          "deadline": -1
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.as",
+      "suggestedreviewers": [
+        "stevenhwang@ucalgary.ca",
+        "rrr@r.rr",
+        "a@a.aa"
+      ],
+      "assignedreviewers": [],
+      "interestedreviewers": []
+    }
+  ],
+  "reviewers": [
+    {
+      "id": "TNp28HAcd5Fxwpwe",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "M2B2gwyvCYCtbnt5",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "aSHSbzjeozf5sTWz",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "Y4NG566K8WkEx9JS",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [
+        "a@a.aa",
+        "rr@r.rr",
+        "stevenhwang@ucalgary.ca"
+      ],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "qnnHeFf9RhI76pVr",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "Lhmi2NeuItPECYao",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "8vjNpDgK8HzxNVoc",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "wbDR1pPyyNLrHIdG",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "dvRUohF4ytIQBbhM",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "9xP4hoOWSmQI15TM",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "wd2ZcYAeontfSMss",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "SXduy9RbN7T1Waun",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        }
+      ]
+    },
+    {
+      "id": "DyO6lNVqjOOmahuI",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "cxLtDz9ogSvaLIAh",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "J9kS6l5zmHlAag40",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "6gp74eDYYbLRm3gb",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "hli1Tr3vLzwD8xkV",
+      "titlelower": "hello world",
+      "title": "Hello World",
+      "papers": [
+        {
+          "id": "ELKajt7706dFssbx",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [
+        "a@a.as",
+        "rrr@r.rr",
+        "a@a.aa"
+      ],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        }
+      ]
+    },
+    {
+      "id": "ucSsxQ4a2b7copSo",
+      "titlelower": "hello world2",
+      "title": "Hello World2",
+      "papers": [
+        {
+          "id": "GrGM30ovnHgPwqDN",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [
+        "r@r.rr",
+        "a@a.aa",
+        "a@a.as"
+      ],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        },
+        {
+          "email": "a@a.as"
+        }
+      ]
+    },
+    {
+      "id": "EYC5bbOAsDVL1UVX",
+      "titlelower": "hello world2",
+      "title": "Hello World2",
+      "papers": [
+        {
+          "id": "0BoPr3Yx4FfVoK4e",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [
+        "r@r.rr",
+        "a@a.aa",
+        "a@a.as"
+      ],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        }
+      ]
+    },
+    {
+      "id": "VAC6VWcvMbr3hM4a",
+      "titlelower": "hello world22",
+      "title": "Hello World22",
+      "papers": [
+        {
+          "id": "4QWObKqFyiv2A8vo",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [
+        "stevenhwang@ucalgary.ca",
+        "rr@r.rr",
+        "a@a.as"
+      ],
+      "assignedreviewers": [],
+      "interestedreviewers": [
+        {
+          "email": "r@r.rr"
+        }
+      ]
+    },
+    {
+      "id": "K7COTn5Ur59cW9f4",
+      "titlelower": "hello world22",
+      "title": "Hello World22",
+      "papers": [
+        {
+          "id": "Jo4A7UrOMAgLNdSO",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "b@b.bb",
+      "suggestedreviewers": [
+        "stevenhwang@ucalgary.ca",
+        "rr@r.rr",
+        "a@a.as"
+      ],
+      "assignedreviewers": [],
+      "interestedreviewers": []
+    },
+    {
+      "id": "YFN2EDbpV9VJ7bL6",
+      "titlelower": "world hello",
+      "title": "World Hello",
+      "papers": [
+        {
+          "id": "rPVN9LrAxV11mmYK",
+          "feedback": []
+        },
+        {
+          "id": "svVEYz2gmT9Ykela",
+          "feedback": [],
+          "deadline": -1
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.as",
+      "suggestedreviewers": [
+        "b@b.bb",
+        "stevenhwang@ucalgary.ca",
+        "r@r.rr"
+      ],
+      "assignedreviewers": [
+        "stevenhwang@ucalgary.ca",
+        "r@r.rr",
+        "b@b.bb"
+      ],
+      "interestedreviewers": []
+    },
+    {
+      "id": "i0QhQiuwbLLNpzX8",
+      "titlelower": "john test",
+      "title": "john test",
+      "papers": [
+        {
+          "id": "tib2kSKCuh8UDekZ",
+          "feedback": []
+        },
+        {
+          "id": "XlvwZ1x2KNc3mhgK",
+          "feedback": [],
+          "deadline": -1
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.as",
+      "suggestedreviewers": [
+        "a@a.aa",
+        "rr@r.rr",
+        "rrr@r.rr"
+      ],
+      "assignedreviewers": [
+        "b@b.bb",
+        "stevenhwang@ucalgary.ca",
+        "a@a.aa"
+      ],
+      "interestedreviewers": []
+    },
+    {
+      "id": "2EHIpeYLshSlcQa6",
+      "titlelower": "gsfgs",
+      "title": "gsfgs",
+      "papers": [
+        {
+          "id": "advg0APGLjTAOxla",
+          "feedback": []
+        }
+      ],
+      "status": "pending",
+      "authoremail": "a@a.as",
+      "suggestedreviewers": [
+        "stevenhwang@ucalgary.ca",
+        "r@r.rr",
+        "rrr@r.rr"
+      ],
+      "assignedreviewers": [],
+      "interestedreviewers": []
+    }
+  ],
+  "reviewers": [
+    {
+      "email": "a@a.as"
+    },
+    {
+      "email": "stevenhwang@ucalgary.ca"
+    },
+    {
+      "email": "a@a.aa"
+    },
+    {
+      "email": "r@r.rr"
+    },
+    {
+      "email": "rr@r.rr"
+    },
+    {
+      "email": "rrr@r.rr"
+    },
+    {
+      "email": "b@b.bb"
+    }
+  ],
+  "editors": [
+    {
+      "email": "e@e.ee"
+    },
+    {
+      "email": "stevenhwang@ucalgary.ca"
+    },
+    {
+      "email": "a@a.aa"
+    }
+  ],
+  "researchers": [
+    {
+      "email": "a@a.as"
+    },
+    {
+      "email": "a@a.aa"
+    },
+    {
+      "email": "r@r.rr"
+    },
+    {
+      "email": "b@b.bb"
+    }
+  ]
+}

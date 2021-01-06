@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #34495E; 
+    background-color: #1ABC9C;
+    font-size: 20px; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.title-header {
+    text-align: center;
+    background-color: #1ABC9C;
+    color: #FFFFFF;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    width: 600px;
+    padding: 35px 0;
+}
+
+.regis-form {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+   
+    width: 500px;
+    padding: 50px;
+    margin: 0 0 40px 0;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-row input[type='email'],
+.form-row input[type='text'],
+.form-row input[type='password'] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 5px;
+    padding: 7.5px;
+    font-size: 14px;
+    width: 250px;
+}
+
+.regis-button,
+.login-button{
+    font-size: 16px;
+    font-weight: bold; 
+    color: #FFFFFF;
+    background-color: #BDC3C7;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 0 auto;
+}
+
+.form-row label {
+    margin-bottom: 11px;
+    text-align: right;
+    width: 150px;
+    padding-right: 20px;
+    margin-top: 11.5px;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold; 
+    color: #FFFFFF;
+    background-color: #BDC3C7;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 0 auto;
+}
+
+.form-row button:hover {
+    background-color: #D5DCE1; 
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+::placeholder {
+    /* color: #bdc3c7; */
+    color: #95a5a6;
+    color: #7f8c8d;
+}
+
+/* for animations */ 
+.removed-name {
+    animation: closespace 1s ease forwards, 
+               remove-name .5s cubic-bezier(.55,-0.04,.91,.94) forwards;
+}
+
+.restored-name {
+    animation: openspace 1s ease forwards,
+               restore-name .5s cubic-bezier(.55,-0.04,.91,.94) forwards;
+}
+
+.error-space {
+    margin-bottom: 20px;    
+}
+
+.error-place {
+    height: 20px;
+}
+
+.server-message {
+    float: right;
+    color: #FFFFFF;
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.show-error{
+    animation: slideup 2s linear forwards; 
+}
+
+@keyframes slideup {
+    0% {
+        /* only works if error message is one line */
+        height: 0px;
+    }
+    25% {
+        height: 23px;
+    }
+    50% {
+        height: 23px;
+    }
+    75% {
+        height: 23px;
+    }
+    100% {
+        height: 0px;
+
+    }
+}
+
+@keyframes closespace {
+    from {
+        height: 43.5px;
+        margin-bottom: 40px;
+    }
+    to {
+        height: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@keyframes remove-name {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+@keyframes openspace {
+    from {
+        height: 0px;
+        margin-bottom: 0px;
+    }
+    to {
+        height: 43.5px;
+        margin-bottom: 40px;
+    }
+}
+
+@keyframes restore-name {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+

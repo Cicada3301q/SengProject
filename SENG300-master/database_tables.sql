@@ -1,0 +1,62 @@
+DROP TABLE IF EXISTS users CASCADE;
+CREATE TABLE users (
+	FirstName varchar(255),
+	LastName varchar(255),
+	Email varchar(255) NOT NULL UNIQUE,
+	Password varchar(255),
+	UserID SERIAL UNIQUE,
+	PRIMARY KEY(UserID)
+);
+
+DROP TABLE IF EXISTS researchers CASCADE;
+CREATE TABLE researchers (
+	UserID integer NOT NULL UNIQUE,
+	FOREIGN KEY (UserID) REFERENCES users,
+	PRIMARY KEY(UserID)
+);
+
+DROP TABLE IF EXISTS reviewers CASCADE;
+CREATE TABLE reviewers (
+	UserID integer NOT NULL UNIQUE,
+	FOREIGN KEY (UserID) REFERENCES users,
+	PRIMARY KEY(UserID)
+);
+
+DROP TABLE IF EXISTS editors CASCADE;
+CREATE TABLE editors (
+	UserID integer NOT NULL UNIQUE,
+	FOREIGN KEY (UserID) REFERENCES users,
+	PRIMARY KEY(UserID)
+);
+
+DROP TABLE IF EXISTS papers CASCADE;
+CREATE TABLE papers (
+	UserID integer NOT NULL,
+	SubmissionData BYTEA NOT NULL,
+	SubmissionID SERIAL UNIQUE,
+	PRIMARY KEY(SubmissionID),
+	FOREIGN KEY (UserID) REFERENCES users
+);
+
+DROP TABLE IF EXISTS recommendations CASCADE;
+CREATE TABLE recommendations(
+	UserID integer NOT NULL,
+	SubmissionID integer NOT NULL,
+	FOREIGN KEY (SubmissionID) REFERENCES papers,
+	FOREIGN KEY (UserID) REFERENCES users 
+);
+
+DROP TABLE IF EXISTS sessions CASCADE;
+CREATE TABLE sessions(
+	SessionID VARCHAR NOT NULL,
+	Sess JSON NOT NULL,
+	PRIMARY KEY (SessionID)
+);
+
+DROP TABLE IF EXISTS usersessions CASCADE;
+CREATE TABLE usersessions (
+	SessionID VARCHAR NOT NULL,
+	UserID integer NOT NULL,
+	FOREIGN KEY (UserID) REFERENCES users,
+	FOREIGN KEY (SessionID) REFERENCES sessions
+);
